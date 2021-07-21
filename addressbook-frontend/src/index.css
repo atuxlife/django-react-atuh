@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  background: url('./assets/paper.webp') repeat;
+}
+
+h1 {
+  color: #efcf3c;
+}
+
+h2 {
+  color: #575339;
+}
