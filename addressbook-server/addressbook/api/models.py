@@ -4,6 +4,7 @@ from django.contrib.auth import get_user_model
 User = get_user_model()
 
 class Contact(models.Model):
+    id = models.AutoField(primary_key=True)
     user = models.ForeignKey(User, models.CASCADE)
     name = models.CharField(max_length=100)
     phone = models.CharField(max_length=20)
